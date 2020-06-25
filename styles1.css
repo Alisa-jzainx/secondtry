@@ -1,0 +1,158 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+
+
+  nav{
+    background-color: rgba(0, 0, 0, .2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 9hv;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 30px;
+  }
+
+  .logo {
+      color:white;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-size: 20px;
+  }
+
+  .nav-links{
+      display: flex;
+      justify-content: space-around;
+      width: 40%;
+  }
+
+@media screen and (max-width:1024px){
+    .nav-links{
+        width: 90%;
+    }
+}
+
+.nav-links a{
+    
+    font-size: 15px;
+    color:white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.nav-links li{
+    list-style: none;
+
+}
+
+.thing{
+    display: none;
+    cursor: pointer;
+}
+
+.thing div{
+    height: 2px;
+    background-color: white;
+    width: 20px;
+    margin: 5px;
+}
+
+/* the center */
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: url("https://img5.goodfon.com/wallpaper/nbig/b/82/osen-listia-fon-derevo-kofe-colorful-kruzhka-chashka-vintage.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sub-headline{
+    font-size: 6.5rem;
+    font-family: 'Playball', cursive;
+    font-weight: 100;
+    color: wheat;
+    font-weight: 100;
+    line-height: .4;
+    letter-spacing: 1px;
+    padding-bottom: 1.2rem;
+    border-bottom: 1px solid white;
+
+}
+
+
+.headline{
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .5rem;
+}
+
+.separator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.discover-our-story .g-headline{
+ margin-top: 6.9rem;
+
+}
+
+.g-headline{
+    text-align: center;
+    margin-top: 3.9rem;
+}
+
+.b-headline{
+    color: black;
+    font-size: 1.2em;
+    letter-spacing: 1rem;
+    margin-right: -.7rem;
+    font-weight: bold;
+
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.g-headline .bsub-headline{
+    line-height: .42;
+    font-family: 'Playball', cursive;
+    font-weight: lighter;
+    font-size: 3.5em;
+    letter-spacing: 1px;
+    padding-bottom: 1.2rem;
+    border-bottom: 1px solid black;
+
+}
+
+.info{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+.describtion{
+    margin-bottom: 3rem ;
+
+}
+
+.describtion p {
+    line-height: 1.2;
+    margin-bottom: 2.4 rem;
+}
